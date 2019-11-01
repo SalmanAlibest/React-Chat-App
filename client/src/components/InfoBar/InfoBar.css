@@ -1,0 +1,30 @@
+.navbar {
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+}
+
+.colour {
+  background-color: #E69A8DFF;
+  transition: ease-in 1s;
+}
+.colour:hover   {
+  background-color:#d1cfcf;
+  }
+  .colour:hover  .leftInnerContainer {
+    color: black;
+    } 
+.leftInnerContainer {
+  flex: 1;
+  margin-left: 0%;
+  color: white;
+  width: 100%;
+  transition: ease-in-out 1s;
+}
+
+.rightInnerContainer {
+  flex: 0.5;
+  margin-right: 5%;
+}
+.onlineIcon {
+  margin-right: 5%;
+}

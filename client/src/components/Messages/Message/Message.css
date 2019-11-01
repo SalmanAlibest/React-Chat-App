@@ -1,0 +1,61 @@
+.messageContainer {
+  padding: 0 5%;
+  margin-top: 20px;
+}
+.messageBoxSend {
+  background-color:#E69A8DFF ;
+  border-radius: 10px 0px 10px 10px;
+  padding: 5px 20px;
+  color: white;
+  display: inline-block;
+  max-width: 80%;
+  transition: ease-in 0.5s;
+}
+.messageBoxSend:hover {
+  background-color:#d1cfcf ;
+  border-radius: 10px 0px 10px 10px;
+  padding: 5px 20px;
+  color: white;
+  display: inline-block;
+  max-width: 80%;
+}
+
+.messageBoxRecieve {
+  background-color:#d1cfcf ;
+  border-radius: 0 10px 10px 10px;
+  padding: 5px 20px;
+  color: white;
+  display: inline-block;
+  max-width: 80%;
+  transition: ease-in 0.5s;
+}
+
+.messageBoxRecieve:hover {
+  background-color: #E69A8DFF ;
+  border-radius: 0 10px 10px 10px;
+  padding: 5px 20px;
+  color: white;
+  display: inline-block;
+  max-width: 80%;
+}
+.messageText {
+  width: 100%;
+  letter-spacing: 0;
+  float: left;
+  font-size: 1.1em;
+  word-wrap: break-word;
+}
+.sentText {
+  font-family: Helvetica;
+  color: #828282;
+  letter-spacing: 0.3px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
